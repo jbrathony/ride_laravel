@@ -1,0 +1,32 @@
+stages:
+  - DEVDEPLOY-DEPLOY
+  - PRODUCTION-DEPLOY 
+  
+
+dev-deployment:
+  stage: DEVDEPLOY-DEPLOY
+  tags:
+       -  devwebserver
+  only:
+    refs:
+       - development
+  script:
+       - sudo docker exec -i devlaravel bash -c 'cd /var/www/html/; rm .env; git pull; cp deployments/.env.development .env'
+
+prod-deployment:
+  stage: PRODUCTION-DEPLOY 
+  tags:
+       - prodapp01
+  only:
+    refs:
+       - original
+  script:
+       - ls
+       - sudo docker exec -i   original-laravel-app-2.1  bash -c 'cd /var/www/html/; rm .env; git pull; cp ../.env .env'
+      # - sudo docker stop      $CI_COMMIT_REF_NAME-$CI_PROJECT_NAME || true 
+      # - sudo docker rm        $CI_COMMIT_REF_NAME-$CI_PROJECT_NAME || true 
+      # - sudo docker rmi       $CI_COMMIT_REF_NAME-$CI_PROJECT_NAME || true
+      # - sudo docker build -t  $CI_COMMIT_REF_NAME-$CI_PROJECT_NAME  -f Dockerfile .
+      # - sudo docker run -d -p 8089:80 -p 4443:443 -v /opt/scripts/.env:/var/www/html/.env --name  $CI_COMMIT_REF_NAME-$CI_PROJECT_NAME $CI_COMMIT_REF_NAME-$CI_PROJECT_NAME
+      # - sudo docker ps -a 
+

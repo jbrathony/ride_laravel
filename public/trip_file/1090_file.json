@@ -1,0 +1,114 @@
+[
+    {
+        "latitude": "9.9243341",
+        "longitude": "78.1377309",
+        "current_km": "0",
+        "old_km": "0.00",
+        "new_km": "0",
+        "time": "13:09:41"
+    },
+    {
+        "latitude": "9.9243342",
+        "longitude": "78.1377311",
+        "current_km": "0",
+        "old_km": "0.00",
+        "new_km": "0",
+        "time": "13:09:51"
+    },
+    {
+        "latitude": "9.9243343",
+        "longitude": "78.1377311",
+        "current_km": "0",
+        "old_km": "0.00",
+        "new_km": "0",
+        "time": "13:10:02"
+    },
+    {
+        "latitude": "9.9243344",
+        "longitude": "78.137731",
+        "current_km": "0",
+        "old_km": "0.00",
+        "new_km": "0",
+        "time": "13:10:12"
+    },
+    {
+        "latitude": "9.9243345",
+        "longitude": "78.137731",
+        "current_km": "0",
+        "old_km": "0.00",
+        "new_km": "0",
+        "time": "13:10:22"
+    },
+    {
+        "latitude": "9.9243345",
+        "longitude": "78.1377309",
+        "current_km": "0",
+        "old_km": "0.00",
+        "new_km": "0",
+        "time": "13:10:32"
+    },
+    {
+        "latitude": "9.9243346",
+        "longitude": "78.1377309",
+        "current_km": "0",
+        "old_km": "0.00",
+        "new_km": "0",
+        "time": "13:10:42"
+    },
+    {
+        "latitude": "9.9243348",
+        "longitude": "78.1377309",
+        "current_km": "0",
+        "old_km": "0.00",
+        "new_km": "0",
+        "time": "13:11:10"
+    },
+    {
+        "latitude": "9.9242978",
+        "longitude": "78.1378182",
+        "current_km": "0",
+        "old_km": "0.00",
+        "new_km": "0",
+        "time": "13:11:20"
+    },
+    {
+        "latitude": "9.9243368",
+        "longitude": "78.13773176",
+        "current_km": "0",
+        "old_km": "0.00",
+        "new_km": "0",
+        "time": "13:11:30"
+    },
+    {
+        "latitude": "9.92433708",
+        "longitude": "78.13773181",
+        "current_km": "0",
+        "old_km": "0.00",
+        "new_km": "0",
+        "time": "13:11:40"
+    },
+    {
+        "latitude": "9.92433713",
+        "longitude": "78.13773183",
+        "current_km": "0",
+        "old_km": "0.00",
+        "new_km": "0",
+        "time": "13:11:51"
+    },
+    {
+        "latitude": "9.92433716",
+        "longitude": "78.1377318",
+        "current_km": "0",
+        "old_km": "0.00",
+        "new_km": "0",
+        "time": "13:12:11"
+    },
+    {
+        "latitude": "9.9243372",
+        "longitude": "78.13773173",
+        "current_km": "0.000011",
+        "old_km": "0.00",
+        "new_km": "1.1E-5",
+        "time": "13:12:21"
+    }
+]
